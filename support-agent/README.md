@@ -17,3 +17,7 @@ Befehle: `/neu` löscht den Verlauf, `/ende` beendet.
 
 ## Wichtig
 Das ist eine KI, keine Therapie und kein Ersatz für Freunde, Familie oder Fachleute.
+
+## Handy-Version (Telegram)
+`node support-agent/telegram.js` startet den Bot als Webhook-Server; `render.yaml` ist für Render vorbereitet.
+Nur die Person mit `ALLOWED_USER_ID` darf chatten. Der Verlauf liegt nur im Arbeitsspeicher und geht beim Neustart verloren.
